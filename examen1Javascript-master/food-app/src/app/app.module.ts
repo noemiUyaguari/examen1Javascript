@@ -24,6 +24,10 @@ import { CarruselComponent } from './carrusel/carrusel.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import {DataGridModule} from 'primeng/datagrid';
+import {TableModule} from 'primeng/table';
+
+
+
 
 
 
@@ -57,8 +61,8 @@ import {DataGridModule} from 'primeng/datagrid';
     CardModule,
     NgbModule,
     HttpClientModule,
-    DataGridModule
-
+    DataGridModule,
+    TableModule,
 
 
 ],
@@ -67,3 +71,5 @@ import {DataGridModule} from 'primeng/datagrid';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+export class InputTextDemoModule {}
