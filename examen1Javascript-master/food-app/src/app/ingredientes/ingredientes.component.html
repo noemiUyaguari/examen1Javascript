@@ -1,0 +1,54 @@
+
+<div class="ui-inputgroup">
+
+  <span class="ui-inputgroup-addon"><i class="fa fa-cutlery"></i></span>
+  <input type="text" pInputText placeholder="Nombre del ingrediente">
+</div>
+
+<div class="ui-inputgroup">
+
+  <span class="ui-inputgroup-addon"><i class="fa fa-balance-scale"></i></span>
+  <input type="text" pInputText placeholder="cantidad">
+</div>
+
+<div class="ui-inputgroup">
+
+  <span class="ui-inputgroup-addon"><i class="fa fa-cutlery"></i></span>
+  <input type="text" pInputText placeholder="tipoIngrediente">
+</div>
+
+
+
+<div>
+<div class="first">Opcional</div>
+<div class="ui-g" style="width:250px;margin-bottom:10px">
+  <div class="ui-g-12"><p-radioButton name="group1" value="Option 1" label="si" [(ngModel)]="val1" inputId="opt1"></p-radioButton></div>
+  <div class="ui-g-12"><p-radioButton name="group1" value="Option 2" label="no" [(ngModel)]="val1" inputId="opt2"></p-radioButton></div>
+</div>
+</div>
+
+<div>
+<div class="first">Necesita Refrigeración</div>
+<div class="ui-g" style="width:250px;margin-bottom:10px">
+  <div class="ui-g-12"><p-radioButton name="group1" value="Option 1" label="si" [(ngModel)]="val1" inputId="opt1"></p-radioButton></div>
+  <div class="ui-g-12"><p-radioButton name="group1" value="Option 2" label="no" [(ngModel)]="val1" inputId="opt2"></p-radioButton></div>
+</div>
+</div>
+
+  <h3 class="first">Preparacion</h3>
+  <textarea rows="5" cols="30" pInputTextarea></textarea>
+
+
+<div class="ui-inputgroup">
+
+  <span class="ui-inputgroup-addon"><i class="fa fa-wrench"></i></span>
+  <input type="text" pInputText placeholder="comida id">
+</div>
+
+
+<button pButton type="button" label="CREAR" ></button>
+
+<p-button label="LIMPIAR" ></p-button>
+
+
+
